@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                     // or later
+      "module": "CommonJS",                // or "ESNext" if you're using ECMAScript modules
+      "strict": true,
+      "esModuleInterop": true,             // Enables default imports for CommonJS modules
+      "skipLibCheck": true,                // Skips type checking for libraries (optional, but useful)
+      "lib": ["ES2015", "DOM"]             // Ensures Symbol and IterableIterator are available
+    }
+}  
